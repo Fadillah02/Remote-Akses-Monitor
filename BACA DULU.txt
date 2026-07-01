@@ -1,0 +1,34 @@
+============================================
+  REMOTE AKSES MONITOR
+  Streaming PC ke HP via WiFi
+============================================
+
+ISI FOLDER:
+  install.bat   ← Klik kanan → Run as Admin
+  setup.ps1     ← Script install otomatis
+  BACA DULU.txt ← File ini
+
+INSTALASI (cukup sekali):
+  1. Klik kanan install.bat → Run as Administrator
+  2. Tunggu selesai (download + install otomatis)
+
+SETELAH INSTAL:
+  1. Buka https://localhost:47990 di browser
+     Login: admin / admin
+  2. Install Moonlight di HP (Play Store / App Store)
+  3. Buka Moonlight → Tambah Host → IP PC
+  4. Masukkan 4 digit PIN dari HP ke tab PIN di Sunshine
+  5. Pilih "Desktop" → Streaming siap!
+
+VIRTUAL DISPLAY (biar gak ganggu monitor utama):
+  Win + P → Extend → pilih "VDD by MTT"
+
+START / STOP MANUAL:
+  Start: net start SunshineService  (CMD Admin)
+  Stop:  net stop SunshineService   (CMD Admin)
+  Cek:   https://localhost:47990
+
+CARI IP PC:
+  Buka CMD → ketik: ipconfig → cari IPv4 Address
+
+============================================
